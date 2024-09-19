@@ -1,0 +1,121 @@
+/* Les initialisations */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+}
+
+.part1{
+    height: 100% ;
+    width: 40%;
+}
+.part1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 30px 30px;
+    gap: 30px;
+    width: 40%;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+.part2 .little-part1 .perfume{
+    font-family: "Fraunces", serif;
+    font-size: 14Px;
+    letter-spacing: 0.4rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.part2 .little-part2 h3{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0;
+}
+
+.part2 .little-part3 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+
+.part2 .little-part4{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.price{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.reduct-price {
+    text-decoration: line-through;
+}
+
+.little-part5{
+    align-self: center;
+    width: 100%;
+}
+
+.little-part5 .addtocard{
+    border: none;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+
+
+.little-part5 .addtocard svg{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 16px;
+} 
+
+
+.little-part5 .addtocard h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #FFF;
+}
+p{
+color: hsl(158, 36%, 37%);
+color: hsl(30, 38%, 92%);
+
+color:hsl(212, 21%, 14%);
+color: hsl(228, 12%, 48%);
+color: hsl(0, 0%, 100%);}
